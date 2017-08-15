@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    background: url('image/index.gif');
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header .header-logo {
+    background: dimgrey;
+    position: absolute;
+    left: 35px;
+}
+
+.header .header-logo sup {
+    font-size: 20px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.header img {
+    width: 45;
+    height: 45;
+}
+
+.header a img:hover {
+    width: 55;
+    height: 45;
+}
+
+.header-logo h1 {
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive;
+    color: antiquewhite;
+    font-size: 45px;
+}
+
+.header li {
+    list-style-type: none;
+    margin: 15px 10px 15px 10px;
+    float: right;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.searcher {
+    width: 80%;
+    margin: 10px auto;
+    height: 55px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.searcher a {
+    display: inline-block;
+    padding-top: 15px;
+    height: 40px;
+    width: 15%;
+    color: #68228B;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 20px;
+}
+
+.searcher a:hover,
+#index {
+    background: #AAAAAA;
+    color: #8A2BE2;
+    font-size: 22px;
+}
+
+.content,
+.footer {
+    width: 80%;
+    text-align: center;
+}
+
+.content p.first {
+    font-size: 80px;
+    color: white;
+    font-family: 'MS Serif', 'New York', sans-serif;
+}
+
+.content p.second {
+    color: antiquewhite;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'MS Serif', 'New York', sans-serif;
+}
+
+.wrap-news {
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrap-news .news {
+    float: left;
+    width: 25%;
+    text-align: center;
+    max-height: 222px;
+}
+
+.wrap-news .news img {
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.wrap-news .news img:hover {
+    opacity: 1.0;
+    cursor: pointer;
+    width: 170px;
+    height: 170px;
+    transform: rotate(9000deg);
+    transition: transform 600s;
+}
+
+.wrap-news .news a {
+    display: inline-block;
+    background: darkslateblue;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+    width: 50%;
+}
+
+
+/*
+.wrap-news .news span {
+    border-top: 0px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid;
+}*/
+
+.footer p {
+    color: beige;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+}

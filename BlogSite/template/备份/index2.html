@@ -1,0 +1,172 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="个人博客,blog">
+    <meta name="author" content="董沅鑫,AsuraDong">
+    <base target="_blank">
+    <link rel="stylesheet" type="text/css" href="index2.css">
+    <script src="C:\Users\Asura\Desktop\Codes\myPage\VueJS\vue.js"></script>
+    <title>首页</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="header-logo">
+            <h1>AsuraDong.Com<sup>&nbsp;&nbsp;&nbsp;CN</sup></h1>
+        </div>
+        <ul>
+            <li>
+                <img src="image/more.png">
+            </li>
+            <li>
+                <a href="#"><img src="image/github.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="image/download.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="image/intrest.png"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="searcher">
+        <hr/>
+        <center>
+            <a href="#" id="index">Home</a>&nbsp;|
+            <a href="#">Blog</a>&nbsp;|
+            <a href="#">Contact</a>&nbsp;|
+            <a href="#">About</a>&nbsp;|
+            <a href="#">More</a>
+        </center>
+    </div>
+    <br/>
+    <center>
+        <div class="content">
+            <p class="first">Welcome&nbsp;To&nbsp;My&nbsp;Site</p>
+            <br/>
+            <p class="second">Asura&nbsp;Dong&nbsp;Write</p>
+            <br/><br/>
+            <div class="wrap-news">
+                <div id="news1" v-bind:class="{news:isNews,show:isShow}" @mouseover="showInfo" @mouseout="hideInfo">
+                    <img src="image/news1.jpg" />
+                    <br/><br/>
+                    <a href="#">TIME >></a>
+                </div>
+                <div id="news2" v-bind:class="{news:isNews,show:isShow}" @mouseover="showInfo" @mouseout="hideInfo">
+                    <img src="image/news2.jpg" />
+                    <br/><br/>
+                    <a href="#">FOOD >></a>
+                </div>
+                <div id="news3" v-bind:class="{news:isNews,show:isShow}" @mouseover="showInfo" @mouseout="hideInfo">
+                    <img src="image/news3.jpg" />
+                    <br/><br/>
+                    <a href="#">ARMY >></a>
+                </div>
+                <div id="news4" v-bind:class="{news:isNews,show:isShow}" @mouseover="showInfo" @mouseout="hideInfo">
+                    <img src="image/news4.jpg" />
+                    <br/><br/>
+                    <a href="#">CODE >></a>
+                </div>
+            </div>
+        </div>
+    </center>
+    <center>
+        <br/><br/>
+        <div class="footer">
+            <hr/>
+            <p>I'm&nbsp;glad&nbsp;to&nbsp;communicate.</p>
+            <p>Address:China&nbsp;GuangDong&nbsp;Province&nbsp;ShenZhen</p>
+            <p>Email:xiaochiyijiu@163.com</p>
+            <p>WeChat:IT_xxx</p>
+            <p>GuangDong,ShenZhen CN</p>
+        </div>
+    </center>
+</body>
+<script>
+    var headerImg = new Vue({
+        el: "#header",
+        data: {
+            isMore: false,
+        },
+        methods: {
+            showMore: function() {
+                this.isMore = true;
+            },
+            hideMore: function() {
+                this.isMore = false;
+            }
+        }
+    });
+    var news1 = new Vue({
+        el: "#news1",
+        data: {
+            isNews: true,
+            isShow: false,
+        },
+        methods: {
+            showInfo: function() {
+                this.isNews = false;
+                this.isShow = true;
+            },
+            hideInfo: function() {
+                this.isNews = true;
+                this.isShow = false;
+            }
+        }
+    });
+    var news2 = new Vue({
+        el: "#news2",
+        data: {
+            isNews: true,
+            isShow: false,
+        },
+        methods: {
+            showInfo: function() {
+                this.isNews = false;
+                this.isShow = true;
+            },
+            hideInfo: function() {
+                this.isNews = true;
+                this.isShow = false;
+            }
+        }
+    });
+    var news3 = new Vue({
+        el: "#news3",
+        data: {
+            isNews: true,
+            isShow: false,
+        },
+        methods: {
+            showInfo: function() {
+                this.isNews = false;
+                this.isShow = true;
+            },
+            hideInfo: function() {
+                this.isNews = true;
+                this.isShow = false;
+            }
+        }
+    });
+    var news4 = new Vue({
+        el: "#news4",
+        data: {
+            isNews: true,
+            isShow: false,
+        },
+        methods: {
+            showInfo: function() {
+                this.isNews = false;
+                this.isShow = true;
+            },
+            hideInfo: function() {
+                this.isNews = true;
+                this.isShow = false;
+            }
+        }
+    });
+</script>
+
+</html>
