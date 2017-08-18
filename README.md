@@ -1,15 +1,14 @@
 # 关于我/Read Me
 
 ## 快速开始/Quick Start
-- **[赞助我/Sponsor](#Sponsor)**
-- **[关注我/Fork](#Fork)**
-- **[联系我/Contact](#Contact)**
-- **[声明/Statement](#Statement)**
-- **[目录/Category](#Category)**
+- **[赞助我/Sponsor](#赞助我-sponsor)**
+- **[关注我/Fork](#关注我-fork)**
+- **[联系我/Contact](#联系我-contact)**
+- **[声明/Statement](#声明-statement)**
+- **[目录/Category](#目录-category)**
 
 
-<span id="Sponsor"></span>
-## 赞助我/Sponsor
+## 赞助我 Sponsor
 &nbsp;&nbsp;&nbsp;&nbsp;如果我的文章或代码或其他方面对您有帮助，欢迎资助我一些钱，来改变我穷困的生活。<br>
 &nbsp;&nbsp;&nbsp;&nbsp;If my article or code or other side is helpful to you, please help me with some money to change my poor life.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Si mon article ou votre code ou votre autre partie vous sont utiles, aidez-moi avec de l'argent pour changer ma vie.<br>
@@ -22,28 +21,27 @@
 </center>
 
 
-<span id="Fork"></span>
-## 关注我/Fork
+## 关注我 Fork
 - [GitHub](https://github.com/login?return_to=%2Fjiangzihao%3Ftab%3Dfollowers)
 - [CSDN](http://blog.csdn.net/asuradong)
 - [博客园/cnblogs](http://www.cnblogs.com/AsuraDong/)
 - [微博](http://weibo.com/AsuraDong)
 
-<span id="Contact"></span>
-## 联系我/Contact
+
+## 联系我 Contact
 - GitHuv：<https://github.com/AsuraDong/>
 - 手机/Phone：13602658570
 - Email：<xiaochiyijiu@163.com> 
 - QQ：2592324965
 - 微信/WeChat：IT_xxx
 
-<span id="Statement"></span>
-## 声明/Statement
+
+## 声明 Statement
 &nbsp;&nbsp;&nbsp;&nbsp;这个仓库存放着我的心得和笔记，本着分享的精神进行交流。如果在引用的时候，忘记声明出处，请原作者第一时间联系我。<br>
 &nbsp;&nbsp;&nbsp;&nbsp;欢迎引用，但劳烦指明出处，O(∩_∩)O谢谢。
 
-<span id="Category"></span>
-## 目录/Category
+
+## 目录 Category
 
 - [Python脚本(初学时候编写)](https://github.com/AsuraDong/Code/tree/master/PyScript)
 - [第一个网站的源码(初学时候编写)](https://github.com/AsuraDong/Code/tree/master/BlogSite)
