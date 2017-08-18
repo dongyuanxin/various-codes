@@ -37,12 +37,12 @@
 
 
 ## 声明 Statement
-&nbsp;&nbsp;&nbsp;&nbsp;这个仓库存放着我的心得和笔记，本着分享的精神进行交流。如果在引用的时候，忘记声明出处，请原作者第一时间联系我。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;这个仓库存放着我的编写的一些代码和项目，本着分享的精神进行交流。目录中粗体的文件名，是已经完善或比较完善的项目。其他的可能是一些不成熟的代码。<br>
 &nbsp;&nbsp;&nbsp;&nbsp;欢迎引用，但劳烦指明出处，O(∩_∩)O谢谢。
 
 
 ## 目录 Category
 
 - [Python脚本(初学时候编写)](https://github.com/AsuraDong/Code/tree/master/PyScript)
-- [第一个网站的源码(初学时候编写)](https://github.com/AsuraDong/Code/tree/master/BlogSite)
+- **[第一个网站的源码](https://github.com/AsuraDong/Code/tree/master/BlogSite)**
 - **[完全基于词典的自然语言情感分析](https://github.com/AsuraDong/Code/tree/master/DictEmotionAlgorithm)**
